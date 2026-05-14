@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Use
+---
+
 # Terms of Use
 
 **Offcut — Cut Layout Optimizer**

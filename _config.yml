@@ -1,0 +1,7 @@
+title: Offcut — Public Documentation
+description: Privacy Policy, Terms of Use, and other public documents for the Offcut iOS app.
+theme: minima
+
+# GitHub Pages settings
+plugins:
+  - jekyll-seo-tag

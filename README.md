@@ -1,3 +1,8 @@
+---
+layout: default
+title: Offcut — Cut Layout Optimizer
+---
+
 # Offcut — Cut Layout Optimizer
 
 **Offcut** is a local-first iOS app that helps woodworkers optimize cut layouts for sheet materials. Plan your cuts, minimize waste, and export professional layouts — all without an account or internet connection.
