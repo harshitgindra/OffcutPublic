@@ -9,7 +9,7 @@ Please read these Terms of Use ("Terms") carefully before using the Offcut iOS a
 
 ## 1. Acceptance of Terms
 
-These Terms constitute a legally binding agreement between you ("User") and the developer of Offcut ("we," "us," or "our"). Your use of the App constitutes your acceptance of these Terms and our [Privacy Policy](PRIVACY_POLICY.md), which is incorporated herein by reference.
+These Terms constitute a legally binding agreement between you ("User") and the developer of Offcut ("we," "us," or "our"). Your use of the App constitutes your acceptance of these Terms and our [Privacy Policy](PrivacyPolicy.md), which is incorporated herein by reference.
 
 ---
 
@@ -157,7 +157,7 @@ These Terms, together with the Privacy Policy, constitute the entire agreement b
 
 If you have questions about these Terms of Use, please contact us:
 
-**Email**: [YOUR_EMAIL]
+**Email**: [masons_oil04@icloud.com](mailto:masons_oil04@icloud.com)
 
 ---
 

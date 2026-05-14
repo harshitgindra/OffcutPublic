@@ -129,7 +129,7 @@ We may update this privacy policy from time to time to reflect changes in the ap
 
 If you have questions, concerns, or requests regarding this privacy policy, please contact us:
 
-**Email**: [YOUR_EMAIL]
+**Email**: [masons_oil04@icloud.com](mailto:masons_oil04@icloud.com)
 
 We will respond to privacy-related inquiries within 30 days.
 
