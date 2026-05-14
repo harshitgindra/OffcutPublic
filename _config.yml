@@ -1,7 +1,6 @@
-title: Offcut — Public Documentation
-description: Privacy Policy, Terms of Use, and other public documents for the Offcut iOS app.
-theme: minima
+title: Offcut
+description: Cut Layout Optimizer — Privacy Policy, Terms of Use, and Support Documents
+theme: jekyll-theme-cayman
 
-# GitHub Pages settings
 plugins:
   - jekyll-seo-tag

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} — Offcut</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+  <body>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="site-branding">
+          <a href="{{ '/' | relative_url }}" class="site-title">✂️ Offcut</a>
+          <p class="site-tagline">Cut Layout Optimizer</p>
+        </div>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/PrivacyPolicy' | relative_url }}">Privacy Policy</a>
+          <a href="{{ '/Terms' | relative_url }}">Terms of Use</a>
+          <a href="{{ '/Support' | relative_url }}">Support</a>
+          <a href="{{ '/Copyright' | relative_url }}">Copyright</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>
+          <a href="{{ '/PrivacyPolicy' | relative_url }}">Privacy Policy</a> ·
+          <a href="{{ '/Terms' | relative_url }}">Terms of Use</a> ·
+          <a href="{{ '/Support' | relative_url }}">Support</a> ·
+          <a href="{{ '/Copyright' | relative_url }}">Copyright</a>
+        </p>
+        <p>© 2026 Harshit Gindra · <a href="mailto:masons_oil04@icloud.com">masons_oil04@icloud.com</a></p>
+      </div>
+    </footer>
+
+  </body>
+</html>
