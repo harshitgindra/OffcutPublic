@@ -18,27 +18,30 @@ Offcut is a local-first utility app that helps woodworkers optimize cut layouts 
 
 **Offcut does not collect, transmit, or store any personal data on external servers owned or operated by us.**
 
-All project data (sheets, pieces, layouts, settings) is stored locally on your device using Apple's SwiftData framework, or synced privately through your personal iCloud account if you have iCloud enabled.
+All project data (sheets, pieces, layouts, settings) is stored locally on your device using Apple's SwiftData framework.
 
 ### 1.1 Data You Provide
 
-When you use Offcut, the following data is created and stored **locally on your device only**:
+When you use Offcut, the following data is created and stored **locally on your device**:
 
 - Project names, dimensions, and cut list data you enter
 - Sheet material dimensions and quantities
 - Tool profile selections and settings
 - App preferences (unit system, default kerf, etc.)
 
-This data never leaves your device unless you explicitly share it (see Section 3).
+This data never leaves your device unless you explicitly share it (see Section 3) or enable iCloud Sync (see Section 1.3).
 
 ### 1.2 iCloud Sync (Optional)
 
-If you have iCloud enabled on your device and grant Offcut permission, your project data may be synced across your devices via **Apple's iCloud (CloudKit)** service. This sync:
+If you enable the "iCloud Sync" option in Settings, your project data is synced to your **private iCloud container** using Apple's CloudKit framework. This means:
 
-- Is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)
-- Is end-to-end encrypted between your own devices
-- Is never accessible to us
-- Can be disabled at any time in **Settings → [Your Name] → iCloud → Offcut**
+- Your data is stored in Apple's iCloud infrastructure, encrypted and accessible only to your Apple Account.
+- Data syncs across all your devices signed into the same iCloud account.
+- We do not have access to your iCloud data — it is managed entirely by Apple.
+- You can disable iCloud Sync at any time in app Settings; data remains local only.
+- Your app preferences (unit system, theme, font size) sync automatically across devices via Apple's iCloud Key-Value Store regardless of the data sync toggle.
+
+iCloud data is governed by [Apple's iCloud Terms and Privacy Policy](https://www.apple.com/legal/internet-services/icloud/).
 
 ### 1.3 In-App Purchases
 
@@ -59,6 +62,7 @@ If you opt in to sharing analytics with Apple, Apple may collect anonymous usage
 - No location data
 - No contacts, photos, microphone, or camera access
 - No network requests to our servers of any kind
+- Network activity is limited to Apple's StoreKit (in-app purchases) and Apple's CloudKit (if iCloud Sync is enabled) — both handled entirely by Apple
 - No behavioral profiling or cross-app tracking
 
 ---
@@ -81,7 +85,7 @@ Offcut does not integrate with any third-party analytics, advertising, or data-c
 | Service | Purpose | Governed By |
 |---------|---------|-------------|
 | Apple App Store | App distribution & in-app purchases | [Apple Privacy Policy](https://www.apple.com/legal/privacy/) |
-| Apple iCloud (CloudKit) | Optional cross-device sync | [Apple Privacy Policy](https://www.apple.com/legal/privacy/) |
+| Apple iCloud / CloudKit | Optional project sync (if enabled by user) | [Apple iCloud Terms](https://www.apple.com/legal/internet-services/icloud/) |
 
 ---
 
@@ -89,9 +93,10 @@ Offcut does not integrate with any third-party analytics, advertising, or data-c
 
 All data stored by Offcut resides on your device. You have full control:
 
-- **Delete a project**: Permanently removes that project's data from your device (and iCloud if sync is enabled).
-- **Delete the app**: Removes all app data from your device permanently. iCloud data can be deleted separately via **Settings → [Your Name] → iCloud → Manage Account Storage → Offcut**.
-- **Reset all data**: You can clear all app data from within the app Settings screen.
+- **Delete a project**: Permanently removes that project's data from your device.
+- **Delete the app**: Removes all local app data from your device permanently.
+- **Reset all data**: You can clear all local app data from within the app Settings screen.
+- **iCloud data**: If iCloud Sync was enabled, your data may persist in iCloud. You can manage iCloud storage via Settings → Apple Account → iCloud → Manage Storage on your device.
 
 We do not retain any copies of your data on our servers because we do not have access to it.
 
@@ -120,7 +125,7 @@ We respect applicable privacy laws in all jurisdictions. If you have questions a
 
 ## 8. Security
 
-All data is stored using Apple's built-in secure storage mechanisms (SwiftData with device encryption). Your device passcode and Face ID/Touch ID protect access to your data. iCloud data is protected by Apple's end-to-end encryption infrastructure.
+All data is stored using Apple's built-in secure storage mechanisms (SwiftData with device encryption). Your device passcode and Face ID/Touch ID protect access to your data.
 
 ---
 

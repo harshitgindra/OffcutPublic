@@ -62,19 +62,6 @@ PDF export requires the **Hobbyist** tier or higher. The free tier supports scre
 
 ---
 
-### iCloud Sync
-
-**Q: How do I enable iCloud sync?**
-iCloud sync is available on the **Prosumer** and **Pro** tiers. Once subscribed, ensure iCloud is enabled for Offcut in **iOS Settings → [Your Name] → iCloud → Offcut**.
-
-**Q: My projects aren't syncing across devices — what should I do?**
-1. Confirm you're signed in to the same Apple ID on both devices
-2. Confirm iCloud is enabled for Offcut (Settings → [Your Name] → iCloud → Offcut)
-3. Ensure both devices have an active internet connection
-4. Try force-quitting and reopening the app on both devices
-
----
-
 ### Purchases & Subscriptions
 
 **Q: How do I restore my purchases on a new device?**
@@ -102,7 +89,7 @@ Go to **Settings → Restore Purchases** in the app. If the issue persists, cont
 No. Offcut does not collect, transmit, or store any personal data on external servers. All your project data stays on your device. See our [Privacy Policy](PrivacyPolicy.md) for full details.
 
 **Q: How do I delete all my data?**
-You can delete all data by deleting the app from your device. This permanently removes all project data from local storage. If iCloud sync is enabled, you can also remove iCloud data via **iOS Settings → [Your Name] → iCloud → Manage Account Storage → Offcut → Delete Data**.
+You can delete all data by deleting the app from your device. This permanently removes all project data from local storage.
 
 ---
 

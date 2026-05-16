@@ -48,7 +48,7 @@ The App is available as a free download with limited features (up to 1 project, 
 The App offers the following optional paid upgrades via Apple's in-app purchase system:
 
 - **Hobbyist** (one-time purchase): Unlimited projects, PDF export, multi-layout optimization, and additional features
-- **Prosumer** (subscription): All Hobbyist features plus edge banding calculations, off-cut library, iCloud sync, and more
+- **Prosumer** (subscription): All Hobbyist features plus edge banding calculations, off-cut library, and more
 - **Pro** (subscription): All Prosumer features plus job costing, professional exports, cabinet library, and more
 
 ### 4.3 Billing
@@ -71,7 +71,7 @@ We reserve the right to change subscription prices. You will be notified of any 
 The App, including its design, graphics, user interface, algorithms, and content (excluding your project data), is owned by us and is protected by copyright, trademark, and other intellectual property laws. All rights not expressly granted in these Terms are reserved.
 
 ### 5.2 Your Content
-All project data (sheets, pieces, cut lists, settings) that you create within the App remains yours. We claim no ownership over your project data. You are solely responsible for the accuracy of measurements and layouts you create.
+All project data (sheets, pieces, cut lists, settings) that you create within the App remains yours. We claim no ownership over your project data. You are solely responsible for the accuracy of measurements and layouts you create. If you enable iCloud Sync, your project data is stored in your private Apple iCloud account and is subject to Apple's iCloud Terms of Service. We do not have access to your iCloud data.
 
 ### 5.3 Feedback
 If you provide us with feedback, suggestions, or ideas about the App, you grant us a non-exclusive, perpetual, irrevocable, royalty-free license to use, reproduce, and incorporate such feedback into the App without obligation to you.
@@ -114,7 +114,7 @@ You agree to indemnify, defend, and hold harmless us and our officers, directors
 
 ## 9. Third-Party Services
 
-The App integrates with Apple services (iCloud, App Store) which are governed by Apple's own terms and privacy policies. We are not responsible for the practices of Apple or any other third party. Links to third-party websites or resources are provided for convenience only and do not constitute endorsement.
+The App integrates with Apple services (App Store) which are governed by Apple's own terms and privacy policies. We are not responsible for the practices of Apple or any other third party. Links to third-party websites or resources are provided for convenience only and do not constitute endorsement.
 
 ---
 
