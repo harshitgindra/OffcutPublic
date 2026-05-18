@@ -23,7 +23,6 @@ jobs:
           args: >-
             --verbose
             --no-progress
-            --exclude-mail
             '**/*.md'
           # Create a GitHub Issue if broken links are found
           fail: true
